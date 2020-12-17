@@ -44,7 +44,7 @@ Preprocessing component converts the voice waves to the feature vectors for the
 system.
 
 The voice data contains depending on the sampling rate contains a lot of data. 
-If we have a voice that is sampled at $8KHZ$, for a one minute voice it has $60
+If we have a voice that is sampled at $$8KHZ$$, for a one minute voice it has $60
 \times 8000 = 48000$ values.
 Therefore the data is partitioned in chuncks. 
 For instance we can take each $100 ms$ as a window with $800$ value and give it to the system.
